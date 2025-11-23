@@ -2,11 +2,15 @@
 This project demonstrates how to build and run a Node.js Express application inside a Docker container, making it portable and easy to deploy.
 
 ## ✅ Features
--Simple Express.js API with multiple routes
--Dockerized for portability
--Configurable environment variables
--REST API with /, /about, /status, /health endpoints
--Lightweight Alpine-based Node image
+-Simple Express.js API with multiple routes.
+
+-Dockerized for portability.
+
+-Configurable environment variables.
+
+-REST API with /, /about, /status, /health endpoints.
+
+-Lightweight Alpine-based Node image.
 
 ## 📂 Project Structure
 node-app/
