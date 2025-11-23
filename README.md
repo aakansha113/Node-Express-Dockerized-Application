@@ -30,6 +30,11 @@ node-app/
 ## Access the app at:
 #http://localhost:5000
 
+### 📥 Clone This Repository
+#### To clone this portfolio on your local system, run:
+```
+git clone https://github.com/aakansha113/Node--Express-Dockerized-Application.git
+```
 ## 🐳 Step 3: Dockerize the App
 ✅ Build Docker Image:
 #docker build -t node-app:v1 .
@@ -41,7 +46,13 @@ node-app/
 #docker ps
 
 ## Access the app:
-curl http://localhost:5000/          OR  http://localhost:5000/
-curl http://localhost:5000/about     OR  http://localhost:5000/about  
-curl http://localhost:5000/health    OR  http://localhost:5000/health  
-curl http://localhost:5000/status    OR http://localhost:5000/status
+```curl http://localhost:5000/```         OR  ``` `http://localhost:5000/```
+
+```curl http://localhost:5000/about```    OR  ```http://localhost:5000/about  ```
+
+```curl http://localhost:5000/health```   OR ``` http://localhost:5000/health  ```
+
+```curl http://localhost:5000/status```   OR ```http://localhost:5000/status```
+
+### ⭐ Show Your Support
+#### If you like this portfolio, feel free to ⭐ star the repo!
