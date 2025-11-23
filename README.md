@@ -23,6 +23,7 @@ node-app/
 
 ## -Prerequisites
 1-Node.js (for local run)
+
 2-Docker (for containerization)
 
 ## -🛠 Step 1: Install Dependencies Locally
