@@ -67,5 +67,7 @@ docker ps
 
 ```curl http://localhost:5000/status```   OR ```http://localhost:5000/status```
 
+
 ### ⭐ Show Your Support
+
 #### If you like this portfolio, feel free to ⭐ star the repo!
