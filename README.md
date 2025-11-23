@@ -26,13 +26,19 @@ node-app/
 2-Docker (for containerization)
 
 ## -🛠 Step 1: Install Dependencies Locally
-#npm install
+```
+npm install
+```
 
 ## ▶️ Step 2: Run Locally
-#npm start
+```
+npm start
+```
 
 ## Access the app at:
-#http://localhost:5000
+```
+http://localhost:5000
+```
 
 ### 📥 Clone This Repository
 #### To clone this portfolio on your local system, run:
@@ -41,14 +47,17 @@ git clone https://github.com/aakansha113/Node--Express-Dockerized-Application.gi
 ```
 ## 🐳 Step 3: Dockerize the App
 ✅ Build Docker Image:
-#docker build -t node-app:v1 .
-
+```
+docker build -t node-app:v1 .
+```
 ## ✅ Run Container:
-#docker run -dit --name node-container -p 5000:5000 node-app:v1
-
+```
+docker run -dit --name node-container -p 5000:5000 node-app:v1
+```
 ## check running containers:
-#docker ps
-
+```
+docker ps
+```
 ## Access the app:
 ```curl http://localhost:5000/```         OR  ``` http://localhost:5000/ ```
 
