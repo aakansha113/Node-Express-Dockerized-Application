@@ -46,7 +46,7 @@ git clone https://github.com/aakansha113/Node--Express-Dockerized-Application.gi
 #docker ps
 
 ## Access the app:
-```curl http://localhost:5000/```         OR  ``` `http://localhost:5000/```
+```curl http://localhost:5000/```         OR  ``` http://localhost:5000/ ```
 
 ```curl http://localhost:5000/about```    OR  ```http://localhost:5000/about  ```
 
