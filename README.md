@@ -1,19 +1,30 @@
-# Node-Express-Dockerized-Application
-This project demonstrates how to build and run a Node.js Express application inside a Docker container, making it portable and easy to deploy.
+# 🚀 Node Express Dockerized Application
+
+This project demonstrates how to **build, containerize, and run a Node.js Express application using Docker**, making it portable, lightweight, and easy to deploy across environments.
+
+---
 
 ## ✅ Features
-- Simple Express.js API with multiple routes.
 
-- Dockerized for portability.
+* Simple **Express.js REST API**
+* Multiple routes for testing and monitoring
+* Fully **Dockerized** application
+* Support for **environment variables**
+* Lightweight **Alpine-based Node image**
+* Clean and beginner-friendly project structure
 
-- Configurable environment variables.
+### Available API Endpoints
 
-- REST API with /, /about, /status, /health endpoints.
+* `/` – Home route
+* `/about` – About information
+* `/status` – Application status
+* `/health` – Health check endpoint
 
-- Lightweight Alpine-based Node image.
+---
 
 ## 📂 Project Structure
-```
+
+```text
 node-app/
 │
 ├── app.js              # Main application file
@@ -21,56 +32,132 @@ node-app/
 ├── Dockerfile          # Docker build instructions
 ├── .dockerignore       # Files ignored by Docker
 └── public/             # Static assets (if any)
-``
-## -Prerequisites
-1-Node.js (for local run)
-
-2-Docker (for containerization)
-
-## -🛠 Step 1: Install Dependencies Locally
 ```
+
+---
+
+## 🔧 Prerequisites
+
+Make sure the following are installed on your system:
+
+1. **Node.js** (for running locally)
+2. **Docker** (for containerization)
+3. **Git** (to clone the repository)
+
+---
+
+## 📥 Clone This Repository
+
+To clone this repository to your local system:
+
+```bash
+git clone https://github.com/aakansha113/Node-Express-Dockerized-Application.git
+cd Node-Express-Dockerized-Application
+```
+
+---
+
+## 🛠 Step 1: Install Dependencies (Local)
+
+```bash
 npm install
 ```
 
-## ▶️ Step 2: Run Locally
-```
+---
+
+## ▶️ Step 2: Run the Application Locally
+
+```bash
 npm start
 ```
 
-## Access the app at:
-```
+Access the application in your browser:
+
+```text
 http://localhost:5000
 ```
 
-### 📥 Clone This Repository
-#### To clone this portfolio on your local system, run:
-```
-git clone https://github.com/aakansha113/Node-Express-Dockerized-Application.git
-```
-```
-## 🐳 Step 3: Dockerize the App
-✅ Build Docker Image:
-```
+---
+
+## 🐳 Step 3: Dockerize the Application
+
+### ✅ Build Docker Image
+
+```bash
 docker build -t node-app:v1 .
 ```
-## ✅ Run Container:
-```
+
+---
+
+### ▶️ Run Docker Container
+
+```bash
 docker run -dit --name node-container -p 5000:5000 node-app:v1
 ```
-## check running containers:
-```
+
+Verify running containers:
+
+```bash
 docker ps
 ```
-## Access the app:
-```curl http://localhost:5000/```         OR  ``` http://localhost:5000/ ```
 
-```curl http://localhost:5000/about```    OR  ```http://localhost:5000/about  ```
+---
 
-```curl http://localhost:5000/health```   OR ``` http://localhost:5000/health  ```
+## 🌐 Access the Application
 
-```curl http://localhost:5000/status```   OR ```http://localhost:5000/status```
+You can access the application using a browser or `curl`:
 
+```bash
+curl http://localhost:5000/
+curl http://localhost:5000/about
+curl http://localhost:5000/health
+curl http://localhost:5000/status
+```
 
-### ⭐ Show Your Support
+Or open directly in browser:
 
-#### If you like this portfolio, feel free to ⭐ star the repo!
+```text
+http://localhost:5000/
+http://localhost:5000/about
+http://localhost:5000/health
+http://localhost:5000/status
+```
+
+---
+
+## 🧹 Cleanup (Optional)
+
+Stop and remove the container:
+
+```bash
+docker stop node-container
+docker rm node-container
+```
+
+Remove the image:
+
+```bash
+docker rmi node-app:v1
+```
+
+---
+
+## 🎯 Key Learnings
+
+* Building REST APIs using Express.js
+* Dockerizing Node.js applications
+* Using Alpine-based images for smaller size
+* Running and managing containers
+
+---
+
+## 👩‍💻 Author
+
+**Akshu Hujare**
+Aspiring DevOps Engineer 🚀
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, feel free to **⭐ star the repository** and share it!
