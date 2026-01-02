@@ -13,6 +13,7 @@ This project demonstrates how to build and run a Node.js Express application ins
 -Lightweight Alpine-based Node image.
 
 ## 📂 Project Structure
+```
 node-app/
 │
 ├── app.js              # Main application file
@@ -20,7 +21,7 @@ node-app/
 ├── Dockerfile          # Docker build instructions
 ├── .dockerignore       # Files ignored by Docker
 └── public/             # Static assets (if any)
-
+``
 ## -Prerequisites
 1-Node.js (for local run)
 
