@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: node-express-app
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+    restart: unless-stopped
